@@ -1,9 +1,13 @@
 using System;
 
+ UC4_QueueDequeue
+namespace QueueLinkedList
+
  UC3_Queue_Enqueue
 namespace QueueLinkedList
 
 namespace StackLinkedList
+ main
  main
 {
     class Program
@@ -11,7 +15,10 @@ namespace StackLinkedList
         static void Main(string[] args)
         {
             //creating object stack class
+ UC4_QueueDequeue
+=======
  UC3_Queue_Enqueue
+main
             QueueLinkedList queue = new QueueLinkedList();
             //calling Enquue method
             queue.Enqueve(56);
@@ -19,6 +26,13 @@ namespace StackLinkedList
             queue.Enqueve(70);
             //calling display method
             queue.Display();
+ UC4_QueueDequeue
+            //calling Dequeue method
+            queue.Dequeue();
+            queue.Display();
+             Console.ReadLine();
+
+
              Console.ReadLine();
 
             StackLinkedList list = new StackLinkedList();
@@ -38,6 +52,7 @@ namespace StackLinkedList
             Console.ReadLine();
 main
 
+ main
         }
     }
 }
