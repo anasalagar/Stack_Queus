@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+ UC3_Queue_Enqueue
 namespace QueueLinkedList
+
+namespace StackLinkedList
+ main
 {
     public class Node
     {
